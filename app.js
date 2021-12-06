@@ -19,13 +19,13 @@ function calculateSum(date){
 function checkLucky(bsum,lnumber){
     if(bsum % lnumber === 0){
         message.innerText="Ohh great...Your birthday is lucky...!!! 🥳🥳🥳 "
-        console.log(bsum)
-        console.log(lnumber)
+        //console.log(bsum)
+        //console.log(lnumber)
     }
     else{
         message.innerText="Oops...your birthday not much lucky 😕"
-        console.log(bsum)
-        console.log(lnumber)
+        //console.log(bsum)
+        //console.log(lnumber)
     }
 }
 
